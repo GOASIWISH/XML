@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <title>Nobel Peace Prizes</title>
+    <item id="i1a" date = "2009">
+        <title>Barack Obama</title> </item>
+    <item id="i1" date = "2008">
+        <title  >Martti Ahtisaari</title>
+    </item>
+    <item id="i2" date = "2007">
+        <title  >Albert Arnold (Al) Gore Jr.</title>
+    </item>
+    <item id="i3" date = "2006">
+        <title  >Muhammad Yunus</title>
+    </item>
+    <item id="i4" date = "2005">
+        <title  >Mohamed ElBaradei</title>
+    </item>
+    <item id="i5" date = "2004" >
+        <title  >Wangari Muta Maathai</title>
+    </item>
+    <item id="i6" date = "2003">
+        <title  >Shirin Ebadi</title>
+    </item>
+    <item id="i7" date = "2002">
+        <title  >Jimmy Carter</title>
+    </item>  
+    <item id="i8" date = "2001">
+        <title  >Kofi Annan</title>
+    </item>     
+    <item id="i9" date = "2000" >
+        <title  >Kim Dae-jung</title>
+    </item>   
+    <item id="i10" date = "1999"  >
+        <title >Medecins Sans Frontieres</title>
+    </item>  
+    <item id="i11" date = "1998">
+        <title  >John Hume</title>
+    </item>  
+    <item id="i12" date = "1997">
+        <title  >Jody Williams</title>
+    </item> 
+</items>
+        
