@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="clothBase">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="about">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="designer">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element ref="p"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element ref="description"/>
+                            <xs:element ref="images"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="clothes">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="cloth" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element ref="p"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element maxOccurs="unbounded" name="image">
+                                            <xs:complexType>
+                                                <xs:attribute name="imageID" type="xs:anyURI"
+                                                  use="optional"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="price" type="xs:float"/>
+                                        <xs:element name="size">
+                                            <xs:simpleType>
+                                                <xs:list itemType="xs:string"/>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element ref="description"/>
+                                        <xs:element name="color" type="xs:string"/>
+                                        <xs:element maxOccurs="unbounded" minOccurs="0"
+                                            name="comments">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="comment">
+                                                  <xs:complexType>
+                                                  <xs:sequence>
+                                                  <xs:element ref="p"/>
+                                                  </xs:sequence>
+                                                  <xs:attribute name="userID" type="xs:string"/>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute ref="id" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="description">
+        <xs:complexType>
+            <xs:choice>
+                <xs:element maxOccurs="unbounded" ref="p"/>
+                <xs:element ref="ul"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:attribute name="id" type="xs:string"/>
+    <xs:element name="p">
+        <xs:complexType mixed="true">
+            <xs:group maxOccurs="unbounded" minOccurs="0" ref="inline"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ul">
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element ref="li"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="images">
+        <xs:complexType>
+            <xs:sequence> </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="li">
+        <xs:complexType mixed="true">
+            <xs:group maxOccurs="unbounded" minOccurs="0" ref="inline"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:group name="inline">
+        <xs:choice>
+            <xs:element minOccurs="0" ref="b"/>
+            <xs:element minOccurs="0" ref="i"/>
+        </xs:choice>
+    </xs:group>
+    <xs:element name="b"/>
+    <xs:element name="i"/>
+</xs:schema>

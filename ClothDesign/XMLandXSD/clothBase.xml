@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clothBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/Shuan_000/Desktop/IMT542/courseProjectRootFolder/W7/CourseProjectRootFolder/XMLandXSD/clothBase.xsd">
+    <about>
+        <designer>
+            <p><b>SOPHIN LIU</b></p>
+        </designer>
+        <description><p><i>A creative wedding dress designer who was born in China</i></p></description>
+        
+            <image imageID = "C:/Users/Shuan_000/Desktop/IMT542/courseProjectRootFolder/W7/CourseProjectRootFolder/HTML/images/SophinLiu.JPG"></image>
+        
+    </about>
+    <clothes>
+        <cloth id="s1">
+            <name>
+                <p>PartyGo</p>
+            </name>          
+                <image imageID = "C:/Users/Shuan_000/Desktop/IMT542/courseProjectRootFolder/W7/CourseProjectRootFolder/HTML/images/1.JPG"></image>          
+            <price> 1999.99 </price>
+            <size>"S", "M" </size>
+            <description>
+                <ul>
+                    <li>Please contact the designer if you need customized size</li>
+                    <li>The dress material is very delicate</li>
+                </ul>
+            </description>
+            <color>Golden Red</color>
+        </cloth>
+        <cloth id="s2">
+            <name>
+                <p>PartyFun</p>
+            </name>
+           
+                <image imageID = "C:/Users/Shuan_000/Desktop/IMT542/courseProjectRootFolder/W7/CourseProjectRootFolder/HTML/images/2.JPG"></image>
+            
+            <price> 3999.99 </price>
+            <size>"S", "M", "L" </size>
+            <description>
+                <ul>
+                    <li>Please contact the designer if you need customized size</li>
+                    <li>This dress was designed for a royal celebrity</li>
+                </ul>
+            </description>
+            <color>Golden Red</color>
+        </cloth>
+        <cloth id="s3">
+            <name>
+                <p>PartyHula</p>
+            </name>
+           
+                <image imageID = "C:/Users/Shuan_000/Desktop/IMT542/courseProjectRootFolder/W7/CourseProjectRootFolder/HTML/images/3.JPG"></image>
+            
+            <price>999.99 </price>
+            <size>"S", "M" </size>
+            <description>
+                <ul>
+                    <li>Please contact the designer if you need customized size</li>
+                    <li>The Hair Accessories were handmade </li>
+                </ul>
+            </description>
+            <color>Golden Red</color>
+        </cloth>
+        <cloth id="s4">
+            <name>
+                <p>Toast</p>
+            </name>
+            
+                <image imageID = "C:/Users/Shuan_000/Desktop/IMT542/courseProjectRootFolder/W7/CourseProjectRootFolder/HTML/images/4.JPG"></image>
+            
+            <price> 9999.99 </price>
+            <size>"S", "M" </size>
+            <description>
+                <ul>
+                    <li>Please contact the designer if you need customized size</li>
+                </ul>
+            </description>
+            <color>Golden Red</color>
+        </cloth>
+        <cloth id="s5">
+            <name>
+                <p>Ceremony</p>
+            </name>
+            <images >
+                <image imageID = "C:/Users/Shuan_000/Desktop/IMT542/courseProjectRootFolder/W7/CourseProjectRootFolder/HTML/images/5.JPG"></image>
+            </images>
+            <price> 3999.99 </price>
+            <size>"S", "M" </size>
+            <description>
+                <ul>
+                    <li>The dress is only available during certain seasons</li>
+                    <li>No return accepted</li>
+                </ul>
+            </description>
+            <color>Pearl White</color>
+        </cloth>
+        <cloth id="s6">
+            <name>
+                <p>PartyWild</p>
+            </name>
+            
+                <image imageID = "C:/Users/Shuan_000/Desktop/IMT542/courseProjectRootFolder/W7/CourseProjectRootFolder/HTML/images/6.JPG"></image>
+            
+            <price> 5999.99 </price>
+            <size>"M" </size>
+            <description>
+                <ul>
+                    <li>Please contact the designer if you need customized size</li>
+                    <li>The dress material is very delicate</li>
+                </ul>
+            </description>
+            <color>Golden Red</color>
+        </cloth>
+        <cloth id="s7">
+            <name>
+                <p>LifeTogether</p>
+            </name>
+            
+                <image imageID = "C:/Users/Shuan_000/Desktop/IMT542/courseProjectRootFolder/W7/CourseProjectRootFolder/HTML/images/7.JPG"></image>
+            
+            <price> 1999.99 </price>
+            <size>"S", "M" </size>
+            <description>
+                <ul>
+                    <li>The dress material is very delicate</li>
+                    <li>The Hair Accessories are not part of this dress purchase</li>
+                </ul>
+            </description>
+            <color>Golden Red</color>
+        </cloth>
+        <cloth id="s8">
+            <name>
+                <p>Forever</p>
+            </name>
+            
+                <image imageID = "C:/Users/Shuan_000/Desktop/IMT542/courseProjectRootFolder/W7/CourseProjectRootFolder/HTML/images/8.JPG"></image>
+            
+            <price> 599.99 </price>
+            <size>"S", "M" </size>
+            <description>
+                <ul>
+                    <li>This item is on sale</li>
+                </ul>
+            </description>
+            <color>Golden Red</color>
+        </cloth>
+        <cloth id="s9">
+            <name>
+                <p>Lily</p>
+            </name>
+            
+                <image imageID = "C:/Users/Shuan_000/Desktop/IMT542/courseProjectRootFolder/W7/CourseProjectRootFolder/HTML/images/9.JPG"></image>
+            
+            <price> 2999.99 </price>
+            <size>"S", "M" </size>
+            <description>
+                <ul>
+                    <li>This is a dress designed based on Qing Dynasty age cultural</li>
+                    <li>No return accepted</li>
+                </ul>
+            </description>
+            <color>Golden Red</color>
+        </cloth>
+        <cloth id="s14">
+            <name>
+                <p>ForeverLove</p>
+            </name>
+           
+                <image imageID = "C:/Users/Shuan_000/Desktop/IMT542/courseProjectRootFolder/W7/CourseProjectRootFolder/HTML/images/14.JPG"></image>
+            
+            <price> 1999.99 </price>
+            <size>"S", "M" </size>
+            <description>
+                <ul>
+                    <li>Please contact the designer if you need customized size</li>
+                    <li>The dress can be machine washed</li>
+                </ul>
+            </description>
+            <color>Golden Red</color>
+        </cloth>
+        <cloth id="s15">
+            <name>
+                <p>Ring</p>
+            </name>
+            
+                <image imageID = "C:/Users/Shuan_000/Desktop/IMT542/courseProjectRootFolder/W7/CourseProjectRootFolder/HTML/images/15.JPG"></image>
+            
+            <price> 999.99 </price>
+            <size>"S", "M" </size>
+            <description>
+                <ul>
+                    <li>The dress material is very delicate</li>
+                    <li>More color options are coming</li>
+                </ul>
+            </description>
+            <color>Golden Red</color>
+        </cloth>
+        <cloth id="s13">
+            <name>
+                <p><b>Royal</b></p>
+            </name>
+            <image imageID = "C:/Users/Shuan_000/Desktop/IMT542/courseProjectRootFolder/W7/CourseProjectRootFolder/HTML/images/13.JPG"></image>
+            
+            <price> 19999.99 </price>
+            <size>"S"</size>
+            <description>
+                <ul>
+                    <li>The dress material is very delicate</li>
+                    <li>No return accpeted</li>
+                    <li>Please contact the designer for customized size</li>
+                </ul>
+            </description>
+            <color>Pearl White</color>
+        </cloth>
+    </clothes>
+</clothBase>
